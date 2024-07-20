@@ -1,13 +1,13 @@
+package Patterns_JAVA;
 public class Reverse_Number_Triangle {
     public static void main(String[] args) {
-        int rows = 4;
-
-        for(int i=4; i>=rows; i--){
-            for(int j=1; j<=i;j++){
-                System.out.print(j);
-            }
-            for(int j=1; j<=i; j++){
+        int n = 4;
+        for (int i=1; i<=n; i++) {
+            for (int j=1; j<i; j++) {
                 System.out.print(" ");
+            }
+            for (int k=i; k<=n; k++) {
+                System.out.print(k + " ");
             }
             System.out.println();
         }

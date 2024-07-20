@@ -1,3 +1,5 @@
+package Patterns_JAVA;
+
 public class IncreasingReversePyramid {
     public static void main(String[] args) {
 

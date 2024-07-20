@@ -1,3 +1,5 @@
+package Patterns_JAVA;
+
 public class NumberChangingPyramid {
     public static void main(String[] args) {
         int n = 1;

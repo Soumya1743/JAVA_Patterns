@@ -1,3 +1,5 @@
+package Patterns_JAVA;
+
 public class NumberIncreasingPyramid {
     public static void main(String[] args) {
 
